@@ -1,0 +1,32 @@
+<html>
+	<table width=400>
+		<tr>
+			<td><b>Song Sheet</b>
+			</td>
+		</tr>
+
+		<tr>
+			<td>Transposes music and creates song sheets.  This plugin is designed for guitar chorded sheets, with lines alternating between chords and the corresponding lyrics.  The plugin will attempt to detect which lines are chord lines before modifying them.
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<ul>
+					<li><b><font color=red>Transpose</font></b> mode
+						<ul>
+							<li>Tthe main setting is <b>how many steps</b> to transpose your song.  Each number is a full step, and clicking on the check box adds another half step.  For example, to transpose from C --> G, click up to 2 full steps, and check the box for the extra half-step.  To transpose half a step down, click to -1 full steps, and add a half step.</li>
+							<li>See below for other settings common to both modes.</li>
+						</ul>
+					<li><b>Common</b> settings and <b><font color=red>Chord Removal</font></b> mode
+						<ul>
+							<li>The <b>chord suffixes</b> is a way for you to tweak which letters are identified as chords.  A chord is identified as starting with A, B, C, etc., with none or one of the given chord suffixes immediately afterward.  Any other characters attached to the end will be considered part of the chord.  This setting allows you to add your own unique chord types.</li>
+							<li><b>Max chords</b> specifies how many "words" to check before calling the line a chorded line or not.  A line starting with, "A house by the seashore...," for example, may be picked up as a chorded line since "A" is a chord.  To improve accuracy, increase the max number of chords to check before the plugin makes the call.</li>
+							<li>To transpose or remove chords from only one section of the text, highlight it and check the <b>selected area only</b> check box.</li>
+						</ul>
+				</ul>
+			</td>
+		<tr>
+
+	</table>
+</html>

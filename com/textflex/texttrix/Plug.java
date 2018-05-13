@@ -51,7 +51,7 @@ import java.util.*;
  * musical song sheets into lyrics for the audience to
  * sing along, for example.
 */
-public class SongSheet extends PlugInWindow {
+public class Plug extends PlugInWindow {
 	
 	/* Constants */
 	// generally accepted represenation of the flat sign
@@ -78,7 +78,7 @@ public class SongSheet extends PlugInWindow {
 	/** Constructs the extra returns remover with descriptive text and 
 	images.
 	*/
-	public SongSheet() {
+	public Plug() {
 		super(
 			"Song Sheet Maker",
 			"trix",
